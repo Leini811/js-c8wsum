@@ -1,0 +1,54 @@
+.btnBox {
+  
+}
+
+a.btnA{
+  font-size:200px;
+}
+a.btnB {
+}
+
+/* ---------- 全部內容 ---------- */
+.allBox {
+}
+.allBox a {
+}
+
+a.list .word {
+}
+a.list .word i {
+}
+a.list .word time {
+}
+a.list h1 {
+}
+a.list b {
+}
+/* 背景 */
+a.list:after {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  background-color:#000;
+}
+a.list.jumble:hover:after {
+    background-image: url(/assets/common/bg-container-01.png),
+      url(/assets/common/top_bg03.webp);
+  }
+}
+a.list.think:hover:after {
+    background-image: url(/assets/common/bg-container-01.png),
+      url(/assets/common/top_bg02.webp);
+  }
+}
+a.list.make:hover:after {
+    background-image: url(/assets/common/bg-container-01.png),
+      url(/assets/common/top_bg01.webp);
+  }
+}
